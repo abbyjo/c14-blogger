@@ -26,7 +26,7 @@ Post.init(
                 key: 'id'
             },
        },
-       comments: {
+       comment_id: {
            type: DataTypes.STRING,
            references: {
                 model: "comment",
